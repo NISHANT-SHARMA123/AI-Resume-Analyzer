@@ -40,6 +40,3 @@ cd frontend
 npm install
 npm run dev
 ```
-
-## Environment Variables
-Copy `.env.example` and fill in your values.
