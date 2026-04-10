@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI_Resume_Analyzer — AI-Powered Resume Analyzer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        background: #050510;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        overflow-x: hidden;
+      }
+      @keyframes float {
+        from { transform: translateY(0px) rotate(0deg); }
+        to   { transform: translateY(-20px) rotate(5deg); }
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+      @keyframes pulse-neon {
+        0%, 100% { opacity: 1; box-shadow: 0 0 6px #00f5ff; }
+        50%       { opacity: 0.5; box-shadow: 0 0 2px #00f5ff; }
+      }
+      /* Scrollbar styling */
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #050510; }
+      ::-webkit-scrollbar-thumb { background: rgba(0,245,255,0.2); border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: rgba(0,245,255,0.4); }
+      input::placeholder, textarea::placeholder { color: #475569; }
+      input, textarea, select { outline: none; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

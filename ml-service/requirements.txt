@@ -1,0 +1,16 @@
+# ml-service/requirements.txt
+# Core Flask service
+flask==3.0.0
+flask-cors==4.0.0
+
+# ML / NLP
+scikit-learn==1.4.0
+spacy==3.7.2
+numpy==1.26.3
+pandas==2.1.4
+
+# OpenAI (optional — set OPENAI_API_KEY in .env for GPT feedback)
+openai==1.10.0
+
+# Utilities
+python-dotenv==1.0.0
